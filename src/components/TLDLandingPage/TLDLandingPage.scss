@@ -1,0 +1,233 @@
+.tld-landing {
+  background-color: #FBFBFD;
+}
+.tld-landing__header-and-search {
+  display: flex;
+  align-items: center;
+
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.tld-landing__header {
+  font-family: $Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 84px;
+  text-align: center;
+  color: #CC0000;
+}
+.tld-landing__label {
+  font-family: $Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+
+  margin-bottom: 32px;
+}
+.tld-landing__form {
+  display: flex;
+}
+.tld-landing__input {
+  width: 412px;
+  height: 60px;
+
+  font-family: $Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+
+  background: #FFFFFF;
+  border: 1px solid #CECECE;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+
+  padding: 0 16px;
+  margin-right: 8px;
+}
+.tld-landing__button {
+  width: 239px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #CC0000;
+  border:none;
+  border-radius: 5px;
+}
+.tld-landing__button-text {
+  font-family: $Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: $white_c;
+
+  margin-left: 4px;
+}
+
+.tld-landing__content-block {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 146px;
+}
+.tlds {
+  max-width: 730px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.tlds__labels {
+  margin-bottom: 12px;
+}
+.tlds__label {
+  font-family: $Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #8990A5;
+}
+.tld-label {
+  width: 219px;
+  display: inline-block;
+  margin-left: 24px;
+}
+.registration-label {
+  width: 223px;
+  display: inline-block;
+}
+.tlds__cards {
+  display: flex;
+  flex-direction: column;
+}
+.tlds__card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 73px;
+  background: #FFFFFF;
+  border: 1px solid #EFEFEF;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 0 24px;
+  margin-bottom: 16px;
+}
+.tlds__card-name {
+  width: 219px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+.tlds__card-registration {
+  width: 223px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.tlds__card-renew {
+  width: 157px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.tlds__card-button {
+  width: 83px;
+  height: 38px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+
+  background: linear-gradient(0deg, #F6F7F9 0%, #FFFFFF 100%);
+  border: 1px solid #D8DCE6;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+
+.popular-domain-names {
+
+  margin-top: 33px;
+}
+.popular-domain-names__header {
+  display: flex;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+
+  margin-bottom: 17px;
+}
+.popular-domain-names__cards {
+  max-width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.popular-domain-names__card {
+  position: relative;
+  width: 160px;
+  height: 140px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: #FFFFFF;
+  border: 1px solid #D0D0D0;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin-bottom: 27px;
+}
+.popular-domain-names__label {
+
+  position: absolute;
+  top: 12px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 10px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 5px 10px;
+  background: #3DC47E;
+  border-radius: 3px;
+
+  margin-bottom: 6px;
+}
+.popular-domain-names__name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  margin-bottom: 8px;
+}
+.popular-domain-names__price {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 22px;
+}

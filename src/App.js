@@ -1,24 +1,54 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss'
 
+import Header from './components/Header/Header.js'
+import HomePage from './components/HomePage/HomePage.js'
+import SearchResults from './components/SearchResults/SearchResults.js'
+import TLD from './components/TLD/TLD.js'
+import TLDLandingPage from './components/TLDLandingPage/TLDLandingPage.js'
+import Transfers from './components/Transfers/Transfers.js'
+import TransfersSecondStep from './components/TransfersSecondStep/TransfersSecondStep.js'
+import Footer from './components/Footer/Footer.js'
+
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+        <Header />
+        <nav className="fake-nav linkset">
+          <ul>
+            <li className="linkset__list-item">
+              <Link to='/' className="linkset__link">Home Page</Link>
+            </li>
+            <li className="linkset__list-item">
+              <Link to='/search' className="linkset__link">Search Results</Link>
+            </li>
+            <li className="linkset__list-item">
+              <Link to='/transfers' className="linkset__link">Transfers</Link>
+            </li>
+            <li className="linkset__list-item">
+              <Link to='/transfers/second-step' className="linkset__link">Transfers Second Step</Link>
+            </li>
+            <li className="linkset__list-item">
+              <Link to='/tlds' className="linkset__link">TLD Landing Page</Link>
+            </li>
+            <li className="linkset__list-item">
+              <Link to='/tlds/com' className="linkset__link">TLD</Link>
+            </li>
+          </ul>
+        </nav>
+        <Routes>
+          <Route path="/tlds/com" element={<TLD />}/>
+          <Route path="/tlds" element={<TLDLandingPage />}/>
+          <Route path="/transfers/second-step" element={<TransfersSecondStep />}/>
+          <Route path="/transfers" element={<Transfers />}/>
+          <Route path="/search" element={<SearchResults />}/>
+          <Route path="/" element={<HomePage />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </div>
+
   );
 }
 

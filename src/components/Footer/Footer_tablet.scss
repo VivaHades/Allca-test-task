@@ -1,0 +1,30 @@
+@media screen and (max-width: 1024px){
+  .phones {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 830px){
+  .support {
+    padding: 10px 0;
+  }
+  .phones__phone-number {
+    font-size: 25px;
+  }
+  .phones__phone-number:first-child {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 661px) {
+  .linkset__list {
+    display: flex;
+    flex-direction: column;
+  }
+  .linkset__list-item {
+    margin-bottom: 10px;
+  }
+  .policies {
+    .linkset__list {
+      flex-direction: row;
+    }
+  }
+}

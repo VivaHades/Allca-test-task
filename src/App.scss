@@ -1,0 +1,11 @@
+.fake-nav {
+  position: fixed;
+  background-color: #fff;
+  .linkset__list-item {
+    width: 100%;
+  }
+  .linkset__link {
+    width: 100%;
+    padding: 7px;
+  }
+}

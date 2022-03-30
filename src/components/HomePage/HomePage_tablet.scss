@@ -1,0 +1,43 @@
+@media screen and (max-width:1200px) {
+  .home-page__header,.home-page__intoduction,.search-form-label {
+    width:fit-content;
+    padding:5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+  }
+
+  .personal-support__header,.personal-support__text {
+    width:fit-content;
+    padding:5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+  }
+
+}
+
+@media screen and (max-width:980px) {
+  .reviews__cards {
+    flex-wrap: wrap;
+    justify-content: center
+  }
+
+  .reviews__card {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width:830px) {
+  .reasons {
+    .container {
+      align-items: center;
+    }
+  }
+
+  .trust-and-privacy {
+    align-items:center;
+  }
+  .trust-and-privacy__block:last-child{
+    margin-top: 20px;
+  }
+}

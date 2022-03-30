@@ -1,0 +1,14 @@
+@media screen and (max-width:600px) {
+  .search-form {
+    flex-direction: column;
+  }
+  .search-form__button {
+    margin-top: 20px;
+  }
+  .home-page__header {
+    font-size: 48px;
+  }
+  .search-form-label {
+    font-size: 32px;
+  }
+}

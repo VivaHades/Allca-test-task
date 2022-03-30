@@ -1,0 +1,108 @@
+.tld {
+  background-color: #FBFBFD;
+  padding-bottom: 75px;
+}
+.tld__container-with-bgi {
+  margin-top: 46px;
+}
+
+.tld__subheader1 {
+  font-family: $Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+}
+.tld__subheader2 {
+  font-family: $Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+
+  margin-top: 8px;
+}
+.tld__price-label {
+  font-family: $Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+
+  margin-top: 32px;
+}
+.tld__price {
+  font-family: $Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 150%;
+  letter-spacing: -2.50105px;
+  color: $red_c
+}
+.tld__links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.tld__link {
+  font-family: $Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-decoration: none;
+  color:$ref_c;
+}
+.tld__link:first-child {
+  margin-bottom: 22px;
+}
+
+.tld__link-text {
+  margin-right: 8px;
+}
+
+
+.left-col{
+  z-index:2;
+}
+.bg-img4 {
+  background: url('/assets/images/BG4.jpg') no-repeat;
+  z-index: 1;
+}
+
+.tld-content__reasons {
+  margin-bottom: 175px;
+}
+
+.tld-content__header {
+  font-family: $Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  text-align: center;
+
+  margin-top: 119px;
+  margin-bottom: 16px;
+}
+.tld-content__p {
+  max-width: 688px;
+
+  font-family: $Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+
+  margin-bottom: 77px;
+}
+.tld-content__header2 {
+  font-family: $Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  margin-bottom: 62px;
+}

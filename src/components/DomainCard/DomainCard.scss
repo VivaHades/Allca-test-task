@@ -1,0 +1,30 @@
+.card {
+  width: 160px;
+  height: 140px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  border: 1px solid $input-border_c;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 24px;
+}
+.card__label {
+  min-width: 67px;
+  padding: 6px 5px;
+  font: normal normal 700 10px/10px $Roboto;
+  text-align: center;
+  color:$white_c;
+  background-color: $lightgreen_c;
+  border-radius: 3px;
+  margin-top: 12px;
+}
+.card__domain-name {
+  font: normal normal 700 32px/32px $Roboto;
+
+  margin-top: 6px;
+}
+.card__domain-price {
+  font: normal normal 400 22px/22px $Roboto;
+  margin-top: 8px;
+}
