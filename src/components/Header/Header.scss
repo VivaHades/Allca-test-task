@@ -14,6 +14,13 @@
 .logo__text {
   font: normal normal 700 24px/150%  'Ubuntu', sans-serif;
 }
+.combiner-row {
+  display: flex;
+}
+.burger-button {
+  display: none;
+}
+
 .combiner {
   display: flex;
   align-items: center;
@@ -43,4 +50,11 @@
   letter-spacing: 0.01em;
   border-radius: 4px;
   margin-left: 8px;
+}
+
+.linkset {
+  display: flex;
+}
+.linkset_mobile {
+  display: none;
 }

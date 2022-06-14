@@ -1,12 +1,12 @@
 import './App.scss'
 
 import Header from './components/Header/Header.js'
-import HomePage from './components/HomePage/HomePage.js'
-import SearchResults from './components/SearchResults/SearchResults.js'
-import TLD from './components/TLD/TLD.js'
-import TLDLandingPage from './components/TLDLandingPage/TLDLandingPage.js'
-import Transfers from './components/Transfers/Transfers.js'
-import TransfersSecondStep from './components/TransfersSecondStep/TransfersSecondStep.js'
+import HomePage from './pages/HomePage/HomePage.js'
+import SearchResults from './pages/SearchResults/SearchResults.js'
+import TLD from './pages/TLD/TLD.js'
+import TLDLandingPage from './pages/TLDLandingPage/TLDLandingPage.js'
+import Transfers from './pages/Transfers/Transfers.js'
+import TransfersSecondStep from './pages/TransfersSecondStep/TransfersSecondStep.js'
 import Footer from './components/Footer/Footer.js'
 
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'

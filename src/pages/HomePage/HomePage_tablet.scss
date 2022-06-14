@@ -16,14 +16,8 @@
 }
 
 @media screen and (max-width:980px) {
-  .reviews__cards {
-    flex-wrap: wrap;
-    justify-content: center
-  }
-
   .reviews__card {
-    margin-right: 0px;
-    margin-bottom: 20px;
+    min-width: 390px;
   }
 }
 
